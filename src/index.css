@@ -1,0 +1,60 @@
+:root {
+  /* background-color:#242424; */
+  --grey: #ffeaae;
+  --item-color: #f6820c;
+  --purple: #5f00d9;
+  --btn: #ffa50e;
+  background: #242424;
+}
+#root {
+  background: #242424;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 360px;
+  border: 1px solid red;
+}
+.my-navbar {
+  height: 60px;
+
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-input {
+  width: 280px;
+  height: 40px;
+  background-color: transparent;
+  padding: 7px 10px 7px 20px;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  opacity: 0px;
+  color: white;
+}
+.my-addBtn {
+  font-size: 40px;
+  cursor: pointer;
+}
+.my-contactBox {
+  background: #ffeaae;
+  height: 64px;
+  border-radius: 10px;
+}
+.cb-btn {
+  color: var(--btn);
+  font-size: 60px;
+  font-weight: 300;
+}
+.cb-editBtn {
+  font-size: 30px;
+  color: var(--btn);
+  cursor: pointer;
+}
